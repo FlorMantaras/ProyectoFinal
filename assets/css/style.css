@@ -1,0 +1,731 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&display=swap');
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;     
+}
+
+/*Estilos Generales*/
+
+.logolabartola{
+  padding: 30px;
+  opacity: 0.7;
+}
+
+@font-face {
+  font-family: "constantine";
+  src: url(../font/Constantine.ttf);
+}
+
+
+/*Navegación*/
+
+.navbarIndex{ 
+  grid-area: navbar;
+  width: 100%;
+  height: 100vh;
+  display: flex; 
+  flex-direction: column;
+  align-items: end;
+ /* justify-content: start;*/
+  background-image: url(../img/vistalocal.jpg);
+  background-color:rgba(128, 128, 128, 0.384);
+  background-blend-mode: soft-light;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*align-content: center;*/
+  padding-top: 10px;
+}
+
+
+.navbarIndexLogo{
+  position: absolute;
+  display: flex;
+}
+
+.navbarIndexLogo a{
+  text-decoration: none;
+  font-family: "constantine";
+  color: rgba(250, 235, 215, 0.883);
+  font-size: 20px;
+  margin: 10px;
+}
+
+.navbarIndex ul{
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.navbarIndex ul li{
+  padding: 5px;  
+  padding-top: px;
+  display:none;
+}
+
+.navbarIndex ul li a{
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+  font-family: assistant;
+  font-size: 20px;
+}
+
+.navbarIndex input{
+  display: none;
+}
+
+.navbarIndex input:checked + ul li{
+  display: flex;
+
+} 
+
+.navbarIndex label{
+  color:antiquewhite;
+  font-size: 24px;
+  padding: 10px;
+}
+
+
+
+/* Html Index */
+
+.mainIndex{
+  display: flex;
+  flex-direction: column;
+}
+
+.mainIndex a{
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  font-family: assistant;
+  font-size: 25px;
+  align-self:flex-end;
+  padding-bottom: 40px;
+}
+
+.main_nosotros{
+  background-image: url(../img/integrantesLaBartola.jpg);
+  background-color:rgba(128, 128, 128, 0.397);
+  background-blend-mode: soft-light;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+} 
+  
+.main_productos{
+  background-image: url(../img/sillonredondo.jpg);
+  background-color:rgba(128, 128, 128, 0.562);
+  background-blend-mode: soft-light;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.main_proyectos{
+  background-image: url(../img/project1.jpg);
+  background-color:rgba(128, 128, 128, 0.562);
+  background-blend-mode: soft-light;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.main_contacto{
+  background-image: url(../img/mesadeluz.jpg);
+  background-color:rgba(128, 128, 128, 0.562);
+  background-blend-mode: soft-light;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+
+/* Footer */
+
+footer{
+  grid-area: footer;
+  width: 100%;
+  height: 150px;
+  background-color:rgba(53, 39, 1, 0.65);
+  display: flex; 
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  text-align: center;
+  padding: 25px;
+  
+}
+
+.h1{
+  display: flex;
+  font-family: "constantine";
+  color: antiquewhite;
+  font-size: 30px;
+  font-weight: lighter;
+  opacity: 0.7;
+  text-align: center;
+  text-decoration: none;
+  
+}
+
+.redes{
+  text-align: center;
+  font-family: assistant;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 16px;
+  margin-left: 8px;
+  margin-right: 5px;
+  padding: 15px;
+}
+
+.redes svg{
+  width: 22px;
+  height: 22px;
+  margin-top: 8px;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 2px;
+}
+
+/*Html Nosotros*/
+
+.navbarPages{ 
+  grid-area: navbar;
+  width: 100%;
+  height: 100vh;
+  display: flex; 
+  flex-direction: column;
+  align-items: end;
+ /* justify-content: start;*/
+  background-image: url(../img/maderaFondo.jpg);
+  background-color:rgba(128, 128, 128, 0.384);
+  background-blend-mode: soft-light;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*align-content: center;*/
+  padding-top: 10px;
+}
+
+.navbarPagesLogo{
+  position: absolute;
+  display: flex;
+}
+
+.navbarPagesLogo a{
+  text-decoration: none;
+  font-family: "constantine";
+  color: rgba(250, 235, 215, 0.883);
+  font-size: 20px;
+  margin: 10px;
+}
+
+.navbarPages ul{
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.navbarPages ul li{
+  padding: 5px;  
+  padding-top: px;
+  display:none;
+}
+
+.navbarPages ul li a{
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+  font-family: assistant;
+  font-size: 20px;
+}
+
+.navbarPages input{
+  display: none;
+}
+
+.navbarPages input:checked + ul li{
+  display: flex;
+
+} 
+
+.navbarPages label{
+  color:antiquewhite;
+  font-size: 24px;
+  padding: 10px;
+}
+
+.mainNosotros{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgIntegrantes{
+  display: flex;
+  width: 70vw;
+  margin-top: 2em;
+}
+
+.textNosotros h1{
+  font-family: assistant;
+  padding: 2%;
+}
+
+.textNosotros{
+  color:rgb(41, 41, 41);
+  opacity: 0.8;
+  font-size: 1.12em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-family: assistant;
+  width: 70vw;
+  margin-bottom: 5%;
+}
+
+.textNosotros p span{
+  font-weight: bold;
+}
+
+/*Html Productos*/
+
+
+.navText p{
+  display: flex;
+  color:antiquewhite;
+  opacity: 0.9;
+  font-family: assistant;
+  font-size: 1.2em;
+  justify-content: center;
+  margin-top: 8%;
+  position: absolute;
+  top: 40%;
+  left: 30%;  
+}
+
+.tarjetas{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5%;
+}
+
+.tarjetasReverse{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5%;
+}
+
+.tarjetaProducto {
+  padding: 4%;
+  text-align: center;
+  padding: 2%;
+}
+
+.tarjetaProducto img{
+  width: 100%;
+  border-radius: 2%;
+  opacity: 0.95;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15)
+ 
+}
+
+.pTitle{
+  font-size: 1.1em;
+  font-weight: bold;
+  opacity: 0.9;
+  padding: 2%;
+}
+
+.tarjetaProducto p{
+  font-family: assistant;
+  padding: 3%;
+}
+
+
+/*Html Proyectos*/
+
+.tarjetas{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5%;
+}
+
+.tarjetaProyecto {
+  padding: 4%;
+  text-align: center;
+  padding: 2%;
+}
+
+.tarjetaProyecto img{
+  width: 100%;
+  border-radius: 2%;
+  opacity: 0.95;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15)
+ 
+}
+
+.pTitle{
+  font-size: 1.1em;
+  font-weight: bold;
+  opacity: 0.9;
+  padding: 2%;
+}
+
+.tarjetaProyecto p{
+  font-family: assistant;
+  padding: 3%;
+}
+
+/*Html Contacto*/
+
+.contenedorForm {
+  width: 300px;
+  margin: auto;
+  font-family: assistant;
+  padding: 10px 20px;
+  margin-top: 20px; 
+}
+
+.textContacto{
+  text-align: center;
+  font-size: 1em;
+  padding: 5%;
+}
+
+input, textarea{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 4px;
+  font-size: 0.8em;
+  font-family: assistant;
+}
+
+textarea{
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+
+.formContacto{
+  display: flex;
+  width: 100%;
+}
+.formItem{
+  justify-content: center;
+}
+
+.visitanos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: start;
+  padding: 3%;
+  
+}
+.map{
+  padding: 5%;
+}
+
+.visitanos p {
+  font-size: 1em;
+  font-family: assistant;
+  padding: 1.5%;
+}
+
+@media(min-width:768px) {
+  .navbarIndex label{
+    display: none;
+  }
+  .navbarIndex ul{
+    flex-direction: row;
+    justify-content: end;
+  }
+  .navbarIndex ul li{
+    display: flex;
+  }
+
+  .navbarIndex ul li a{
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+    font-family: assistant;
+    font-size: 23px;
+    padding: 8px;
+  }
+  .navbarIndexLogo a{
+    font-size: 20px;
+    padding: 8px;
+  }
+  
+  footer{
+    flex-direction: row;
+    justify-content: space-between; 
+  }
+  
+  .h1{
+    font-size: 38px;
+  }
+
+  .redes a{
+    font-size: 24px;
+  }
+
+  .redes svg{
+    width: 32px;
+    height: 32px;
+  } 
+  .navbarPages label{
+    display: none;
+  }
+  .navbarPages ul{
+    flex-direction: row;
+    justify-content: end;
+  }
+  .navbarPages ul li{
+    display: flex;
+  }
+
+  .navbarPages ul li a{
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+    font-family: assistant;
+    font-size: 23px;
+    padding: 8px;
+  }
+  .navbarPagesLogo a{
+    font-size: 20px;
+    padding: 8px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+/*Media Query Nosotros*/
+
+@media (min-width:768px) {
+  .navText p{
+    font-size: 1.8em;
+    margin-top: 17%;
+    position: absolute;
+    top: 20%;
+    left: 20%;  
+  }
+
+  .navbar ul li a{
+    font-size: 1.1em;
+  }
+
+  .redes{
+    font-size: 20px;
+  }
+  .mainNosotros{
+    display: grid;
+    grid-template-columns: (1fr,1fr);
+    grid-template-rows: auto ;
+    grid-template-areas: "navbar  navbar"
+                         "main    main"
+                         "footer  footer "; 
+  }
+
+  .mainNosotros{
+    display: grid;
+    grid-area: main;
+    flex-direction: row; 
+    justify-content: space-around;
+    padding-top: 5%;
+  }
+  
+  .imgIntegrantes{
+    width: 50vw;
+  }
+
+  .textNosotros {
+    padding: 2%;
+    text-align: justify;
+    width:50vw ;
+  }
+
+  .textNosotros h1{
+    text-align: center;
+    height: 80%;
+  }
+}
+
+/*Media Query Productos*/
+
+@media (min-width:768px) {
+  
+  .navText p{
+    font-size: 1.8em;
+    position: absolute;
+    text-align: left;
+    top: 20%;
+    left: 20%;
+  }
+
+  .navbar ul li a{
+    font-size: 1.1em;
+  }
+
+  .redes{
+    font-size: 20px;
+  }
+
+  .mainProductos{
+    margin: 5%;
+  }
+
+  .tarjetasReverse{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .tarjetaProducto{
+    display: flex;
+    align-items: center ; 
+  }
+  
+  .tarjetaProducto p{
+    font-size: 1.2em;
+    text-align: left;
+  }
+
+
+  .pTitle{
+    font-size: 1.2em;
+    text-align: center;
+  }
+
+  .tarjetaProductos img{
+    align-items: center;
+    margin:5% 
+  }
+}
+
+/*Media Query Proyectos*/
+@media (min-width:768px) {
+  
+  .navText p{
+    font-size: 1.8em;
+    margin-top: 10%;
+    position: absolute;
+    top: 20%;
+    left: 20%;  
+  }
+
+  .navbar ul li a{
+    font-size: 1.1em;
+  }
+
+  .redes{
+    font-size: 20px;
+  }
+  
+  .mainProyectos{
+    display: grid;
+    grid-template-columns: (1fr,1fr);
+    grid-template-areas: "navbar          navbar"
+                         "mainProyectos   mainProyectos"
+                         "footer          footer ";               
+    }
+   
+    .mainProyectos{
+      grid-area: "mainProyectos";
+      margin: 5%;
+    }     
+    
+    .tarjetas{
+      flex-flow: row;
+      align-items: flex-start;
+    }
+
+    .imgProyecto{
+      width: 250px;
+      height: 250px;
+      object-fit: cover;
+    }         
+}
+
+/*Media Query Contacto*/
+@media (min-width:768px) {
+  .navText p{
+    font-size: 1.8em;
+    margin-top: 10%;
+    position: absolute;
+    top: 20%;
+    left: 20%;  
+  }
+
+  .navbar ul li a{
+    font-size: 1.1em;
+  } 
+
+  .redes{
+    font-size: 20px;
+  }
+  
+  .mainContacto{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .contenedorForm{
+    width: 50vw;
+  }
+  .textContacto{
+    text-align: center;     
+    font-size: 1.2em;
+    padding: 3%;
+    width: 100%;
+  }
+    
+  input, textarea{         
+    font-size: 1.1em; 
+  }
+
+  .visitanos{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+  }
+
+  .visitanos p {
+    font-size: 1.2em;
+    font-family: assistant;
+    padding: 1%;
+  }
+
+  .map{
+    height: 70vh;
+    width: 50vw ;
+  }
+  .pTitle{
+    font-size: 1.2em;
+    text-align: center;
+  }
+    
+    
+}
