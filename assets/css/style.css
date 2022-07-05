@@ -8,18 +8,13 @@
 
 /*Estilos Generales*/
 
-.logolabartola{
-  padding: 30px;
-  opacity: 0.7;
-}
-
 @font-face {
   font-family: "constantine";
   src: url(../font/Constantine.ttf);
 }
 
 
-/**************Navegación Index******************/
+/*Navegación Index*/
 
 .navbarIndex{ 
   grid-area: navbar;
@@ -28,16 +23,13 @@
   display: flex; 
   flex-direction: column;
   align-items: end;
- /* justify-content: start;*/
   background-image: url(../img/vistalocal.jpg);
   background-color:rgba(128, 128, 128, 0.384);
   background-blend-mode: soft-light;
   background-size: cover;
   background-repeat: no-repeat;
-  /*align-content: center;*/
   padding-top: 10px;
 }
-
 
 .navbarIndexLogo{
   position: absolute;
@@ -88,22 +80,20 @@
   padding: 10px;
 }
 
-/****************Navegación Pages*****************/
+/*Navegación Pages*/
 
 .navbarPages{ 
   grid-area: navbar;
   width: 100%;
-  height: 100vh;
+  height: 75vh;
   display: flex; 
   flex-direction: column;
   align-items: end;
- /* justify-content: start;*/
-  background-image: url(../img/maderaFondo.jpg);
+   background-image: url(../img/maderaFondo.jpg);
   background-color:rgba(128, 128, 128, 0.384);
   background-blend-mode: soft-light;
   background-size: cover;
   background-repeat: no-repeat;
-  /*align-content: center;*/
   padding-top: 10px;
 }
 
@@ -155,33 +145,39 @@
   padding: 10px;
 }
 
+header{
+  display: flex; 
+}
+
 .textoNav{
-  display: flex;
-  position: absolute;
-  align-items: center; 
+ width: 100%;
+ position: absolute;
+ align-self: end;
+ text-align: center; 
+ margin-bottom: 4em;
 }
 
 .textoNav p{
-  color:rgb(216, 27, 150);
-  font-size: 25px;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 30px;
   font-family: assistant;
-  align-self: center;
+  font-style: oblique;
+  
 }
 
-/************** Footer ***************/
+/* Footer */
 
 footer{
   grid-area: footer;
   width: 100%;
-  height: 150px;
+  height: 200px;
   background-color:rgba(53, 39, 1, 0.65);
   display: flex; 
   flex-direction: column;
   align-items: center; 
   justify-content: center;
   text-align: center;
-  padding: 25px;
-  
+  padding: 25px; 
 }
 
 .h1{
@@ -193,7 +189,6 @@ footer{
   opacity: 0.7;
   text-align: center;
   text-decoration: none;
-  
 }
 
 .redes{
@@ -207,15 +202,15 @@ footer{
 }
 
 .redes svg{
-  width: 22px;
-  height: 22px;
+  width: 30px;
+  height: 30px;
   margin-top: 8px;
   color: rgba(255, 255, 255, 0.8);
   padding: 2px;
 }
 
 
-/************** Html Index ***************/
+/* Html Index */
 
 .mainIndex{
   display: flex;
@@ -278,7 +273,7 @@ footer{
   justify-content: center;
 }
 
-/***************Html Nosotros*************/
+/*Html Nosotros*/
 
 .mainNosotros{
   display: flex;
@@ -302,11 +297,9 @@ footer{
   color:rgb(41, 41, 41);
   opacity: 0.8;
   font-size: 1.12em;
-  text-align: center;
   display: flex;
   flex-direction: column;
   font-family: assistant;
-  width: 70vw;
   margin-bottom: 5%;
 }
 
@@ -314,102 +307,9 @@ footer{
   font-weight: bold;
 }
 
-/*Html Productos*/
-
-
-.navText p{
-  display: flex;
-  color:antiquewhite;
-  opacity: 0.9;
-  font-family: assistant;
-  font-size: 1.2em;
-  justify-content: center;
-  margin-top: 8%;
-  position: absolute;
-  top: 40%;
-  left: 30%;  
-}
-
-.tarjetas{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 5%;
-}
-
-.tarjetasReverse{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 5%;
-}
-
-.tarjetaProducto {
-  padding: 4%;
-  text-align: center;
-  padding: 2%;
-}
-
-.tarjetaProducto img{
-  width: 100%;
-  border-radius: 2%;
-  opacity: 0.95;
-  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15)
- 
-}
-
-.pTitle{
-  font-size: 1.1em;
-  font-weight: bold;
-  opacity: 0.9;
-  padding: 2%;
-}
-
-.tarjetaProducto p{
-  font-family: assistant;
-  padding: 3%;
-}
-
-
-/*Html Proyectos*/
-
-.tarjetas{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 5%;
-}
-
-.tarjetaProyecto {
-  padding: 4%;
-  text-align: center;
-  padding: 2%;
-}
-
-.tarjetaProyecto img{
-  width: 100%;
-  border-radius: 2%;
-  opacity: 0.95;
-  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15)
- 
-}
-
-.pTitle{
-  font-size: 1.1em;
-  font-weight: bold;
-  opacity: 0.9;
-  padding: 2%;
-}
-
-.tarjetaProyecto p{
-  font-family: assistant;
-  padding: 3%;
-}
-
 /*Html Contacto*/
 
 .contenedorForm {
-  width: 300px;
   margin: auto;
   font-family: assistant;
   padding: 10px 20px;
@@ -513,7 +413,6 @@ textarea{
   .navbarPages ul li{
     display: flex;
   }
-
   .navbarPages ul li a{
     color: rgba(255, 255, 255, 0.85);
     text-decoration: none;
@@ -579,100 +478,6 @@ textarea{
   }
 }
 
-/*Media Query Productos*/
-
-@media (min-width:768px) {
-  
-  .navText p{
-    font-size: 1.8em;
-    position: absolute;
-    text-align: left;
-    top: 20%;
-    left: 20%;
-  }
-
-  .navbar ul li a{
-    font-size: 1.1em;
-  }
-
-  .redes{
-    font-size: 20px;
-  }
-
-  .mainProductos{
-    margin: 5%;
-  }
-
-  .tarjetasReverse{
-    display: flex;
-    flex-direction: row-reverse;
-  }
-
-  .tarjetaProducto{
-    display: flex;
-    align-items: center ; 
-  }
-  
-  .tarjetaProducto p{
-    font-size: 1.2em;
-    text-align: left;
-  }
-
-
-  .pTitle{
-    font-size: 1.2em;
-    text-align: center;
-  }
-
-  .tarjetaProductos img{
-    align-items: center;
-    margin:5% 
-  }
-}
-
-/*Media Query Proyectos*/
-@media (min-width:768px) {
-  
-  .navText p{
-    font-size: 1.8em;
-    margin-top: 10%;
-    position: absolute;
-    top: 20%;
-    left: 20%;  
-  }
-
-  .navbar ul li a{
-    font-size: 1.1em;
-  }
-
-  .redes{
-    font-size: 20px;
-  }
-  
-  .mainProyectos{
-    display: grid;
-    grid-template-columns: (1fr,1fr);
-    grid-template-areas: "navbar          navbar"
-                         "mainProyectos   mainProyectos"
-                         "footer          footer ";               
-    }
-   
-    .mainProyectos{
-      grid-area: "mainProyectos";
-      margin: 5%;
-    }     
-    
-    .tarjetas{
-      flex-flow: row;
-      align-items: flex-start;
-    }
-
-    .imgProyecto{
-      width: 250px;
-      height: 250px;
-      object-fit: cover;
-    }         
-}
 
 /*Media Query Contacto*/
 @media (min-width:768px) {
@@ -730,7 +535,5 @@ textarea{
   .pTitle{
     font-size: 1.2em;
     text-align: center;
-  }
-    
-    
+  }  
 }
