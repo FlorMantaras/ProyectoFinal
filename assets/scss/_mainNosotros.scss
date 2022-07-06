@@ -1,0 +1,34 @@
+.mainNosotros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .imgIntegrantes{
+    display: flex;
+    width: 70vw;
+    margin-top: 2em;
+  }
+  
+  .textNosotros{
+    color:rgb(41, 41, 41);
+    opacity: 0.8;
+    font-size: 1.12em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: assistant;
+    margin-bottom: 5%;
+    h1{
+      font-family: assistant;
+      padding: 2%;
+    }
+    p{
+      text-align: justify;
+      padding: 30px;
+      span{
+          font-weight: bold;
+        }
+      }   
+  }

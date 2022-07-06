@@ -1,0 +1,61 @@
+.mainIndex{
+    display: flex;
+    flex-direction: column;
+    a{
+      color: rgba(255, 255, 255, 0.8);
+      text-decoration: none;
+      font-family: assistant;
+      font-size: 25px;
+      align-self:flex-end;
+      padding-bottom: 40px;
+    }  
+  }
+  
+  
+  .main_nosotros{
+    background-image: url(../img/integrantesLaBartola.jpg);
+    background-color:rgba(128, 128, 128, 0.397);
+    background-blend-mode: soft-light;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+  } 
+    
+  .main_productos{
+    background-image: url(../img/sillonredondo.jpg);
+    background-color:rgba(128, 128, 128, 0.562);
+    background-blend-mode: soft-light;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .main_proyectos{
+    background-image: url(../img/project1.jpg);
+    background-color:rgba(128, 128, 128, 0.562);
+    background-blend-mode: soft-light;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .main_contacto{
+    background-image: url(../img/mesadeluz.jpg);
+    background-color:rgba(128, 128, 128, 0.562);
+    background-blend-mode: soft-light;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+  }
+  
