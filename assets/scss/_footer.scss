@@ -11,7 +11,7 @@ footer{
     padding: 25px; 
 }
   
-  .h1{
+  .logoFooter{
     display: flex;
     font-family: "constantine";
     color: antiquewhite;
@@ -30,12 +30,15 @@ footer{
     margin-left: 8px;
     margin-right: 5px;
     padding: 15px;
+    a{
+        text-decoration: none;
+    }
     svg{
-      width: 30px;
-      height: 30px;
-      margin-top: 8px;
-      color: rgba(255, 255, 255, 0.8);
-      padding: 2px;
+        width: 30px;
+        height: 30px;
+        margin-top: 8px;
+        color: rgba(255, 255, 255, 0.8);
+        padding: 2px;
     }
 }
   

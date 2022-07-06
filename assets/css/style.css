@@ -78,7 +78,7 @@ footer {
   padding: 25px;
 }
 
-.h1 {
+.logoFooter {
   display: flex;
   font-family: "constantine";
   color: antiquewhite;
@@ -97,6 +97,9 @@ footer {
   margin-left: 8px;
   margin-right: 5px;
   padding: 15px;
+}
+.redes a {
+  text-decoration: none;
 }
 .redes svg {
   width: 30px;
