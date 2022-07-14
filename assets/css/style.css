@@ -41,10 +41,10 @@
   font-family: assistant;
   font-size: 20px;
 }
-.navbarIndex input {
+.navbarIndex input, .navbarIndex textarea {
   display: none;
 }
-.navbarIndex input:checked + ul li {
+.navbarIndex input:checked + ul li, .navbarIndex textarea:checked + ul li {
   display: flex;
 }
 .navbarIndex label {
@@ -145,10 +145,10 @@ header {
   font-family: assistant;
   font-size: 20px;
 }
-.navbarPages input {
+.navbarPages input, .navbarPages textarea {
   display: none;
 }
-.navbarPages input:checked + ul li {
+.navbarPages input:checked + ul li, .navbarPages textarea:checked + ul li {
   display: flex;
 }
 .navbarPages label {
@@ -259,10 +259,10 @@ header {
 .textNosotros {
   color: rgb(41, 41, 41);
   opacity: 0.8;
-  font-size: 1.12em;
   display: flex;
   flex-direction: column;
   text-align: center;
+  font-size: 1.12em;
   font-family: assistant;
   margin-bottom: 5%;
 }
@@ -295,7 +295,7 @@ input, textarea {
   width: 100%;
   margin-bottom: 20px;
   padding: 4px;
-  font-size: 0.8em;
+  font-size: 1em;
   font-family: assistant;
 }
 
@@ -323,7 +323,7 @@ textarea {
   padding: 3%;
 }
 .visitanos p {
-  font-size: 1em;
+  font-size: 1.12em;
   font-family: assistant;
   padding: 1.5%;
 }
@@ -336,16 +336,13 @@ textarea {
   .navbarIndex label {
     display: none;
   }
-
   .navbarIndex ul {
     flex-direction: row;
     justify-content: end;
   }
-
   .navbarIndex ul li {
     display: flex;
   }
-
   .navbarIndex ul li a {
     color: rgba(255, 255, 255, 0.85);
     text-decoration: none;
@@ -353,43 +350,34 @@ textarea {
     font-size: 23px;
     padding: 8px;
   }
-
   .navbarIndexLogo a {
     font-size: 20px;
     padding: 8px;
   }
-
   footer {
     flex-direction: row;
     justify-content: space-between;
   }
-
   .h1 {
     font-size: 38px;
   }
-
   .redes a {
     font-size: 24px;
   }
-
   .redes svg {
     width: 32px;
     height: 32px;
   }
-
   .navbarPages label {
     display: none;
   }
-
   .navbarPages ul {
     flex-direction: row;
     justify-content: end;
   }
-
   .navbarPages ul li {
     display: flex;
   }
-
   .navbarPages ul li a {
     color: rgba(255, 255, 255, 0.85);
     text-decoration: none;
@@ -397,7 +385,6 @@ textarea {
     font-size: 23px;
     padding: 8px;
   }
-
   .navbarPagesLogo a {
     font-size: 20px;
     padding: 8px;
@@ -412,39 +399,32 @@ textarea {
     top: 20%;
     left: 20%;
   }
-
   .navbar ul li a {
     font-size: 1.1em;
   }
-
   .redes {
     font-size: 20px;
   }
-
   .mainNosotros {
     display: grid;
     grid-template-columns: 1fr, 1fr;
     grid-template-rows: auto;
     grid-template-areas: "navbar  navbar" "main    main" "footer  footer ";
   }
-
   .mainNosotros {
     display: grid;
     grid-area: main;
     flex-direction: row;
     justify-content: space-around;
   }
-
   .imgIntegrantes {
     width: 50vw;
   }
-
   .textNosotros {
     padding: 2%;
     text-align: justify;
     width: 50vw;
   }
-
   .textNosotros h1 {
     text-align: center;
     height: 80%;
@@ -459,52 +439,42 @@ textarea {
     top: 20%;
     left: 20%;
   }
-
   .navbar ul li a {
     font-size: 1.1em;
   }
-
   .redes {
     font-size: 20px;
   }
-
   .mainContacto {
     display: flex;
     flex-direction: row;
   }
-
   .contenedorForm {
     width: 50vw;
   }
-
   .textContacto {
     text-align: center;
     font-size: 1.2em;
     padding: 3%;
     width: 100%;
   }
-
   input, textarea {
     font-size: 1.1em;
   }
-
   .visitanos {
     display: flex;
     justify-content: flex-start;
     align-items: center;
   }
-
   .visitanos p {
     font-size: 1.2em;
     font-family: assistant;
     padding: 1%;
   }
-
   .map {
     height: 70vh;
     width: 50vw;
   }
-
   .pTitle {
     font-size: 1.2em;
     text-align: center;

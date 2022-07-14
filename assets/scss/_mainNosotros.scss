@@ -14,11 +14,10 @@
   .textNosotros{
     color:rgb(41, 41, 41);
     opacity: 0.8;
-    font-size: 1.12em;
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-family: assistant;
+    @include letra (1.12em, assistant);
     margin-bottom: 5%;
     h1{
       font-family: assistant;

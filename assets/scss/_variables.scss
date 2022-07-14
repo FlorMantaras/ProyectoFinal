@@ -1,0 +1,11 @@
+$algunos:(
+    letra: assistant,
+    letraLogo:constantine,
+    anchoPantalla: 100%, 
+);
+
+
+@mixin letra($size, $asis) {
+    font-size: $size;
+    font-family: $asis;
+}

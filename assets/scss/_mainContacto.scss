@@ -1,6 +1,6 @@
 .contenedorForm {
     margin: auto;
-    font-family: assistant;
+    font-family: map-get($algunos , letra );
     padding: 10px 20px;
     margin-top: 20px; 
   }
@@ -11,23 +11,23 @@
     padding: 5%;
   }
   
-  input, textarea{
-    width: 100%;
+  input{
+    width: map-get($algunos, anchoPantalla);
     margin-bottom: 20px;
     padding: 4px;
-    font-size: 0.8em;
-    font-family: assistant;
-  }
+    @include letra (1em, assistant);
+}
   
   textarea{
+    @extend input;
     min-height: 100px;
     max-height: 200px;
-    max-width: 100%;
+    max-width: map-get($algunos, anchoPantalla);
   }
   
   .formContacto{
     display: flex;
-    width: 100%;
+    width: map-get($algunos, anchoPantalla);
     padding-top: 30px;
   }
   .formItem{
@@ -41,8 +41,7 @@
     align-self: start;
     padding: 3%;
     p {
-      font-size: 1em;
-      font-family: assistant;
+      @include letra(1.12em, assistant);
       padding: 1.5%;
     }    
   }
