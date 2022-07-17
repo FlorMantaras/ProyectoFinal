@@ -5,6 +5,8 @@
       color: rgba(255, 255, 255, 0.8);
       text-decoration: none;
       font-family: assistant;
+      font-weight: bold;
+      text-shadow: blanchedalmond;
       font-size: 25px;
       align-self:flex-end;
       padding-bottom: 40px;
@@ -12,7 +14,7 @@
   }
   
   .main_nosotros{
-    background-image: url(../img/integrantesLaBartola.jpg);
+    background-image: url(../img/mesadeluz.jpg);
     background-color:rgba(128, 128, 128, 0.397);
     background-blend-mode: soft-light;
     background-size: cover;
@@ -47,7 +49,7 @@
   }
   
   .main_contacto{
-    background-image: url(../img/mesadeluz.jpg);
+    background-image: url(../img/bajo.jpg);
     background-color:rgba(128, 128, 128, 0.562);
     background-blend-mode: soft-light;
     background-size: cover;

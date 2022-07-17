@@ -5,18 +5,18 @@
     .navbarIndex ul{
       flex-direction: row;
       justify-content: end;
+      li{
+        display: flex;
+        a{
+          color: rgba(255, 255, 255, 0.85);
+          text-decoration: none;
+          font-family: assistant;
+          font-size: 23px;
+          padding: 8px;
+        }
+      }
     }
-    .navbarIndex ul li{
-      display: flex;
-    }
-  
-    .navbarIndex ul li a{
-      color: rgba(255, 255, 255, 0.85);
-      text-decoration: none;
-      font-family: assistant;
-      font-size: 23px;
-      padding: 8px;
-    }
+    
     .navbarIndexLogo a{
       font-size: 20px;
       padding: 8px;
@@ -27,8 +27,8 @@
       justify-content: space-between; 
     }
     
-    .h1{
-      font-size: 38px;
+    .logoFooter{
+      font-size: 40px;
     }
   
     .redes a{
@@ -45,26 +45,25 @@
     .navbarPages ul{
       flex-direction: row;
       justify-content: end;
+      li{
+        display: flex;
+        a{
+          color: rgba(255, 255, 255, 0.85);
+          text-decoration: none;
+          font-family: assistant;
+          font-size: 23px;
+          padding: 8px;
+        }
+      }
     }
-    .navbarPages ul li{
-      display: flex;
-    }
-    .navbarPages ul li a{
-      color: rgba(255, 255, 255, 0.85);
-      text-decoration: none;
-      font-family: assistant;
-      font-size: 23px;
-      padding: 8px;
-    }
+    
     .navbarPagesLogo a{
       font-size: 20px;
       padding: 8px;
     }
   
   }
-  
-  /*Media Query Nosotros*/
-  
+   
   @media (min-width:768px) {
     .navText p{
       font-size: 1.8em;
@@ -78,9 +77,6 @@
       font-size: 1.1em;
     }
   
-    .redes{
-      font-size: 20px;
-    }
     .mainNosotros{
       display: grid;
       grid-template-columns: (1fr,1fr);
@@ -102,21 +98,95 @@
       width: 50vw;
     }
   
-    .textNosotros {
-      padding: 2%;
+    .textNosotros p{
       text-align: justify;
-      width:50vw ;
+      width:50vw;
+      margin: 15px;
     }
   
     .textNosotros h1{
-      text-align: center;
-      height: 80%;
+      text-align:left;
+      padding-left: 40px;
+      padding-top: 35px;
+    }
+    .navbarPagesNosotros label{
+      display: none;
+    }
+    .navbarPagesNosotros ul{
+      flex-direction: row;
+      justify-content: end;
+      li{
+        display: flex;
+        a{
+          color: rgba(255, 255, 255, 0.85);
+          text-decoration: none;
+          font-family: assistant;
+          font-size: 23px;
+          padding: 8px;
+        }
+      }
     }
   }
+
+  @media (min-width:768px){
+  .navbarPagesProductos label{
+    display: none;
+  }
+  .navbarPagesProductos ul{
+    flex-direction: row;
+    justify-content: end;
+    li{
+      display: flex;
+      a{
+        color: rgba(255, 255, 255, 0.85);
+        text-decoration: none;
+        font-family: assistant;
+        font-size: 23px;
+        padding: 8px;
+      }
+    }
+  }
+}
+
+@media (min-width:768px){
+  .navbarPagesProyectos label{
+    display: none;
+  }
+  .navbarPagesProyectos ul{
+    flex-direction: row;
+    justify-content: end;
+    li{
+      display: flex;
+      a{
+        color: rgba(255, 255, 255, 0.85);
+        text-decoration: none;
+        font-family: assistant;
+        font-size: 23px;
+        padding: 8px;
+      }
+    }
+  }
+}
+
+ @media (min-width:768px) {
+    .navbarPagesContacto label{
+      display: none;
+    }
+    .navbarPagesContacto ul{
+      flex-direction: row;
+      justify-content: end;
+      li{
+        display: flex;
+        a{
+          color: rgba(255, 255, 255, 0.85);
+          text-decoration: none;
+          font-family: assistant;
+          font-size: 23px;
+          padding: 8px;
+        }
+      }
+    }
   
-  
-  /*Media Query Contacto*/
-  @media (min-width:768px) {
     .navText p{
       font-size: 1.8em;
       margin-top: 10%;

@@ -69,7 +69,7 @@ footer {
   grid-area: footer;
   width: 100%;
   height: 200px;
-  background-color: rgba(53, 39, 1, 0.65);
+  background-color: #47413C;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -113,50 +113,6 @@ header {
   display: flex;
 }
 
-.navbarPages {
-  grid-area: navbar;
-  width: 100%;
-  height: 75vh;
-  display: flex;
-  flex-direction: column;
-  align-items: end;
-  background-image: url(../img/maderaFondo.jpg);
-  background-color: rgba(128, 128, 128, 0.384);
-  background-blend-mode: soft-light;
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-top: 10px;
-}
-.navbarPages ul {
-  width: 100%;
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  align-items: end;
-}
-.navbarPages ul li {
-  padding: 5px;
-  padding-top: px;
-  display: none;
-}
-.navbarPages ul li a {
-  color: rgba(255, 255, 255, 0.85);
-  text-decoration: none;
-  font-family: assistant;
-  font-size: 20px;
-}
-.navbarPages input, .navbarPages textarea {
-  display: none;
-}
-.navbarPages input:checked + ul li, .navbarPages textarea:checked + ul li {
-  display: flex;
-}
-.navbarPages label {
-  color: antiquewhite;
-  font-size: 24px;
-  padding: 10px;
-}
-
 .navbarPagesLogo {
   position: absolute;
   display: flex;
@@ -191,13 +147,15 @@ header {
   color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
   font-family: assistant;
+  font-weight: bold;
+  text-shadow: blanchedalmond;
   font-size: 25px;
   align-self: flex-end;
   padding-bottom: 40px;
 }
 
 .main_nosotros {
-  background-image: url(../img/integrantesLaBartola.jpg);
+  background-image: url(../img/mesadeluz.jpg);
   background-color: rgba(128, 128, 128, 0.397);
   background-blend-mode: soft-light;
   background-size: cover;
@@ -232,7 +190,7 @@ header {
 }
 
 .main_contacto {
-  background-image: url(../img/mesadeluz.jpg);
+  background-image: url(../img/bajo.jpg);
   background-color: rgba(128, 128, 128, 0.562);
   background-blend-mode: soft-light;
   background-size: cover;
@@ -241,6 +199,50 @@ header {
   height: 100vh;
   display: flex;
   justify-content: center;
+}
+
+.navbarPagesNosotros {
+  grid-area: navbar;
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  background-image: url(../img/carpinteria.jpg);
+  background-color: rgba(128, 128, 128, 0.384);
+  background-blend-mode: soft-light;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 10px;
+}
+.navbarPagesNosotros ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.navbarPagesNosotros ul li {
+  padding: 5px;
+  padding-top: px;
+  display: none;
+}
+.navbarPagesNosotros ul li a {
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+  font-family: assistant;
+  font-size: 20px;
+}
+.navbarPagesNosotros input, .navbarPagesNosotros textarea {
+  display: none;
+}
+.navbarPagesNosotros input:checked + ul li, .navbarPagesNosotros textarea:checked + ul li {
+  display: flex;
+}
+.navbarPagesNosotros label {
+  color: antiquewhite;
+  font-size: 24px;
+  padding: 10px;
 }
 
 .mainNosotros {
@@ -276,6 +278,135 @@ header {
 }
 .textNosotros p span {
   font-weight: bold;
+}
+
+.navbarPagesProductos {
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  background-image: url(../img/navprod.jpg);
+  background-color: rgba(128, 128, 128, 0.384);
+  background-blend-mode: soft-light;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 10px;
+}
+.navbarPagesProductos ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.navbarPagesProductos ul li {
+  padding: 5px;
+  padding-top: px;
+  display: none;
+}
+.navbarPagesProductos ul li a {
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+  font-family: assistant;
+  font-size: 20px;
+}
+.navbarPagesProductos input, .navbarPagesProductos textarea {
+  display: none;
+}
+.navbarPagesProductos input:checked + ul li, .navbarPagesProductos textarea:checked + ul li {
+  display: flex;
+}
+.navbarPagesProductos label {
+  color: antiquewhite;
+  font-size: 24px;
+  padding: 10px;
+}
+
+.navbarPagesProyectos {
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  background-image: url(../img/navproyecto.jpg);
+  background-color: rgba(128, 128, 128, 0.384);
+  background-blend-mode: soft-light;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 10px;
+}
+.navbarPagesProyectos ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.navbarPagesProyectos ul li {
+  padding: 5px;
+  padding-top: px;
+  display: none;
+}
+.navbarPagesProyectos ul li a {
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+  font-family: assistant;
+  font-size: 20px;
+}
+.navbarPagesProyectos input, .navbarPagesProyectos textarea {
+  display: none;
+}
+.navbarPagesProyectos input:checked + ul li, .navbarPagesProyectos textarea:checked + ul li {
+  display: flex;
+}
+.navbarPagesProyectos label {
+  color: antiquewhite;
+  font-size: 24px;
+  padding: 10px;
+}
+
+.navbarPagesContacto {
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  background-image: url(../img/laptop2.jpg);
+  background-color: rgba(128, 128, 128, 0.384);
+  background-blend-mode: soft-light;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 10px;
+}
+.navbarPagesContacto ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.navbarPagesContacto ul li {
+  padding: 5px;
+  padding-top: px;
+  display: none;
+}
+.navbarPagesContacto ul li a {
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+  font-family: assistant;
+  font-size: 20px;
+}
+.navbarPagesContacto input, .navbarPagesContacto textarea {
+  display: none;
+}
+.navbarPagesContacto input:checked + ul li, .navbarPagesContacto textarea:checked + ul li {
+  display: flex;
+}
+.navbarPagesContacto label {
+  color: antiquewhite;
+  font-size: 24px;
+  padding: 10px;
 }
 
 .contenedorForm {
@@ -358,8 +489,8 @@ textarea {
     flex-direction: row;
     justify-content: space-between;
   }
-  .h1 {
-    font-size: 38px;
+  .logoFooter {
+    font-size: 40px;
   }
   .redes a {
     font-size: 24px;
@@ -390,7 +521,6 @@ textarea {
     padding: 8px;
   }
 }
-/*Media Query Nosotros*/
 @media (min-width: 768px) {
   .navText p {
     font-size: 1.8em;
@@ -401,9 +531,6 @@ textarea {
   }
   .navbar ul li a {
     font-size: 1.1em;
-  }
-  .redes {
-    font-size: 20px;
   }
   .mainNosotros {
     display: grid;
@@ -420,18 +547,90 @@ textarea {
   .imgIntegrantes {
     width: 50vw;
   }
-  .textNosotros {
-    padding: 2%;
+  .textNosotros p {
     text-align: justify;
     width: 50vw;
+    margin: 15px;
   }
   .textNosotros h1 {
-    text-align: center;
-    height: 80%;
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 35px;
+  }
+  .navbarPagesNosotros label {
+    display: none;
+  }
+  .navbarPagesNosotros ul {
+    flex-direction: row;
+    justify-content: end;
+  }
+  .navbarPagesNosotros ul li {
+    display: flex;
+  }
+  .navbarPagesNosotros ul li a {
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+    font-family: assistant;
+    font-size: 23px;
+    padding: 8px;
   }
 }
-/*Media Query Contacto*/
 @media (min-width: 768px) {
+  .navbarPagesProductos label {
+    display: none;
+  }
+  .navbarPagesProductos ul {
+    flex-direction: row;
+    justify-content: end;
+  }
+  .navbarPagesProductos ul li {
+    display: flex;
+  }
+  .navbarPagesProductos ul li a {
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+    font-family: assistant;
+    font-size: 23px;
+    padding: 8px;
+  }
+}
+@media (min-width: 768px) {
+  .navbarPagesProyectos label {
+    display: none;
+  }
+  .navbarPagesProyectos ul {
+    flex-direction: row;
+    justify-content: end;
+  }
+  .navbarPagesProyectos ul li {
+    display: flex;
+  }
+  .navbarPagesProyectos ul li a {
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+    font-family: assistant;
+    font-size: 23px;
+    padding: 8px;
+  }
+}
+@media (min-width: 768px) {
+  .navbarPagesContacto label {
+    display: none;
+  }
+  .navbarPagesContacto ul {
+    flex-direction: row;
+    justify-content: end;
+  }
+  .navbarPagesContacto ul li {
+    display: flex;
+  }
+  .navbarPagesContacto ul li a {
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+    font-family: assistant;
+    font-size: 23px;
+    padding: 8px;
+  }
   .navText p {
     font-size: 1.8em;
     margin-top: 10%;
