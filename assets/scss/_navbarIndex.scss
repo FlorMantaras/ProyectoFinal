@@ -16,7 +16,7 @@
       list-style: none;
       display: flex;
       flex-direction: column;
-      align-items: end;
+      align-items: center;
       li{
           padding: 5px;  
           padding-top: px;
@@ -45,11 +45,15 @@
 .navbarIndexLogo{
 position: absolute;
 display: flex;
-    a{
-      text-decoration: none;
-      font-family: "constantine";
-      color: rgba(250, 235, 215, 0.883);
-      font-size: 20px;
-      margin: 10px;
+  a{
+    text-decoration: none;
+    font-family: "constantine";
+    color: rgba(250, 235, 215, 0.883);
+    font-size: 20px;
+    margin: 10px;
+    h1{
+      font-size: 2em;
+      font-weight: lighter;
     }
+  }
 }
